@@ -6,6 +6,7 @@ Fooling around with backtracking/dfs to solve sudoku puzzles - currently brute f
 WIP, running will solve problem_grid hardcoded at the top
 
 TODOs:
+    
     # Considering a preprocess step and having a "candidate bank" for each blank space, where we hold all possible solutions, then upon hitting each square we can just pull from the candidate box
     # There would also need to be some way to update candidate boxes upon spaces being "confirmed"
     # This could be a way to improve performance
